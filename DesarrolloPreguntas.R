@@ -80,3 +80,4 @@ for (i in 1:length(Cartas_Escogidas)){
 
 
 
+
