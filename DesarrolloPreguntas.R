@@ -114,7 +114,7 @@ for (i in 1:length(Cartas_Escogidas)){
     mas<-mas+1}
 }
 
-####menos1###
+####menos1####
 menos<-0
 for (i in 1:length(Cartas_Escogidas)){
   if (Cartas_Escogidas[i]=="A"|Cartas_Escogidas[i]=="J"|Cartas_Escogidas[i]=="Q"|Cartas_Escogidas[i]=="K"|Cartas_Escogidas[i]==10){
