@@ -144,7 +144,6 @@ porcentaje_neutros<-(neutros/Totalcartas)
 ##########################################
 
 
-da
 
 
 
