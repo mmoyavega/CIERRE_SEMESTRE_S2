@@ -14,6 +14,8 @@ Posteriormente realizamos el conteo de las que debia sumar 100
 
 Lo que puedo ver que hace set es ordenar los datos del ejercicio 1 de la muestra de 10 variables,
 
+Además, llamaremos set.seed() para que estos resultados sean replicables (internet)
+
 ######################################
 #############EJERCICIO3###############
 ######################################
@@ -25,15 +27,17 @@ Segun los datos anteriores y se determinaron los porcentajes correspondientes,ad
 #############EJERCICIO4###############
 ######################################
 
-
-
-En este ejercicio 
+cree las variables de menos mas y neutro para luego calcular la probabilidad de sacar una de esas
  
 ######################################
 #############EJERCICIO5###############
 ######################################
-
+cree las variables de menos mas y neutro para luego calcular la probabilidad de sacar una de esas
+utilice set lo pero lo que me hizo fue cambiar los porcentaje con respecto a la anterior "4"
 
 ######################################
 #############EJERCICIO6###############
 ######################################
+
+Genere una base de datos que la extraje de excel la cual contaba las palabras , y luego esta debia generar generar la frase.
+

@@ -57,21 +57,96 @@ Porcentajes_no_neutros<-c(negativo/(TOTAL-neutros),positivo/(TOTAL-neutros))
 
 
 ##########################################
-#############EJERCICIO4y5#################
+#############EJERCICIO4###################
+##########################################
+
+Cartas_Escogidas=sample(c("A",2:10,"J","Q","K"),31,replace=TRUE)
+
+
+#####mas1####
+
+mas<-0
+for (i in 1:length(Cartas_Escogidas)){
+  if(Cartas_Escogidas[i]==2|Cartas_Escogidas[i]==3|Cartas_Escogidas[i]==4|Cartas_Escogidas[i]==5|Cartas_Escogidas[i]==6) {
+    mas<-mas+1}
+}
+
+####menos1###
+menos<-0
+for (i in 1:length(Cartas_Escogidas)){
+  if (Cartas_Escogidas[i]=="A"|Cartas_Escogidas[i]=="J"|Cartas_Escogidas[i]=="Q"|Cartas_Escogidas[i]=="K"|Cartas_Escogidas[i]==10){
+    menos<-menos+1}
+}
+
+##Contando los neutros##
+neutros<-0
+for (i in 1:length(Cartas_Escogidas)){
+  if (Cartas_Escogidas[i]==7|Cartas_Escogidas[i]==8|Cartas_Escogidas[i]==9){
+    neutros<-neutros+1
+  }
+}
+
+##Comprobación  suma 31##
+Totalcartas<-mas+menos+neutros
+
+##Porcentaje grupo de carta##
+
+porcentaje_mas<-(mas/Totalcartas)
+porcentaje_menos<-(menos/Totalcartas)
+porcentaje_neutros<-(neutros/Totalcartas)
+
+
+##########################################
+#############EJERCICIO5###################
+##########################################
+
+set.seed(31)
+
+
+Cartas_Escogidas=sample(c("A",2:10,"J","Q","K"),31,replace=TRUE)
+
+
+#####mas1####
+
+mas<-0
+for (i in 1:length(Cartas_Escogidas)){
+  if(Cartas_Escogidas[i]==2|Cartas_Escogidas[i]==3|Cartas_Escogidas[i]==4|Cartas_Escogidas[i]==5|Cartas_Escogidas[i]==6) {
+    mas<-mas+1}
+}
+
+####menos1###
+menos<-0
+for (i in 1:length(Cartas_Escogidas)){
+  if (Cartas_Escogidas[i]=="A"|Cartas_Escogidas[i]=="J"|Cartas_Escogidas[i]=="Q"|Cartas_Escogidas[i]=="K"|Cartas_Escogidas[i]==10){
+    menos<-menos+1}
+}
+
+##Contando los neutros##
+neutros<-0
+for (i in 1:length(Cartas_Escogidas)){
+  if (Cartas_Escogidas[i]==7|Cartas_Escogidas[i]==8|Cartas_Escogidas[i]==9){
+    neutros<-neutros+1
+  }
+}
+
+##Comprobación  suma 31##
+Totalcartas<-mas+menos+neutros
+
+##Porcentaje grupo de carta##
+
+porcentaje_mas<-(mas/Totalcartas)
+porcentaje_menos<-(menos/Totalcartas)
+porcentaje_neutros<-(neutros/Totalcartas)
+
+
+##########################################
+#############EJERCICIO6###################
 ##########################################
 
 
-set.seed(31)
-Cartas_Escogidas=sample(c("A",2:10,"J","Q","K"),31,replace=TRUE)
+da
 
-Cuenta<-0
-for (i in 1:length(Cartas_Escogidas)){
-  if(Cartas_Escogidas[i]==2|Cartas_Escogidas[i]==3|Cartas_Escogidas[i]==4|Cartas_Escogidas[i]==5|Cartas_Escogidas[i]==6) {
-    Cuenta<-Cuenta+1 } else if (Cartas_Escogidas[i]=="A"|Cartas_Escogidas[i]=="J"|Cartas_Escogidas[i]=="Q"|Cartas_Escogidas[i]=="K"|Cartas_Escogidas[i]==10){
-      Cuenta<-Cuenta-1} else if (Cartas_Escogidas[i]==7|Cartas_Escogidas[i]==8|Cartas_Escogidas[i]==9){
-        Cuenta<-Cuenta+0
-      }
-}
+
 
 
 
