@@ -78,7 +78,7 @@ for (i in 1:length(Cartas_Escogidas)){
     menos<-menos+1}
 }
 
-##Contando los neutros##
+##neutros##
 neutros<-0
 for (i in 1:length(Cartas_Escogidas)){
   if (Cartas_Escogidas[i]==7|Cartas_Escogidas[i]==8|Cartas_Escogidas[i]==9){
