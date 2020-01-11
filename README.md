@@ -12,6 +12,8 @@ Posteriormente realizamos el conteo de las que debia sumar 100
 #############EJERCICIO2###############
 ######################################
 
+en primera instancia se crea una base de 10 elementos con los nombres postivo negativo neutros
+
 Lo que puedo ver que hace set es ordenar los datos del ejercicio 1 de la muestra de 10 variables,
 
 Además, llamaremos set.seed() para que estos resultados sean replicables (internet)
@@ -21,23 +23,24 @@ Además, llamaremos set.seed() para que estos resultados sean replicables (intern
 ######################################
 
 Segun los datos anteriores y se determinaron los porcentajes correspondientes,ademas se utilizo el set.seed(66) 
- pero utilizando esto cambia en cierta medida el orden aleatorio que tenia, ademas cuando se calcula el porcentaje hace pensar que no cambia pero si cambian ya que si no se considera los neutros ademas de tulizar el "set" se producen cambios en el porcentaje de estos.
+Pero utilizando esto cambia el orden aleatorio que tenia, ademas cuando se calcula el porcentaje hace pensar que no cambia pero si cambian ocurre cuando no se considera los neutros ademas de actulizar el "set" se producen cambios en el porcentaje de estos.
  
 ######################################
 #############EJERCICIO4###############
 ######################################
 
-cree las variables de menos mas y neutro para luego calcular la probabilidad de sacar una de esas
+cree las variables de menos mas y neutro segun las cartas que van de "A" a la "K" con el fin de determinar la cantidad correspondiente a cada variable para luego calcular la probabilidad de sacar una de esas.
+
  
 ######################################
 #############EJERCICIO5###############
 ######################################
-cree las variables de menos mas y neutro para luego calcular la probabilidad de sacar una de esas
-utilice set lo pero lo que me hizo fue cambiar los porcentaje con respecto a la anterior "4"
+utilizando las mismas  variables de menos mas y neutro para determinar lo anterior para luego calcular la probabilidad de sacar una de esas
+utilice set lo pero lo que me hizo fue cambiar los porcentaje con respecto a la anterior "4" y en esto puedo ver que las probabilidades cambiaron
 
 ######################################
 #############EJERCICIO6###############
 ######################################
 
-Genere una base de datos que la extraje de excel la cual contaba las palabras , y luego esta debia generar generar la frase.
+
 

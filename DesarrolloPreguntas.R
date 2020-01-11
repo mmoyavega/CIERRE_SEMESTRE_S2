@@ -1,5 +1,6 @@
 #######DESARROLLO##################
 
+
 ejemplos = sample(c("positivo", "negativo", "neutros"), 100, replace = TRUE)
 
 ######################################
